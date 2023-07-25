@@ -13,7 +13,7 @@ const config = {
 const theme = extendTheme({ config })
 
 // Replace with your actual server URL
-const serverUrl = `http://localhost:81/conversation/`;
+const serverUrl = `/conversation/`;
 
 const App = () => {
   const [messages, setMessages] = useState([]);
